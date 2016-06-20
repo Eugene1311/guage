@@ -12,7 +12,7 @@ Options:
   className: classname of the canvas for usage in css,
   font: font,
   size: width and height of canvas in px,
-  angle: 240,
+  angle: circle aperture (in degrees),
   labels: array of labels on the scale,
   value: current value,
   sectors: array of sectors in the scale this values of color, start and end angles,
