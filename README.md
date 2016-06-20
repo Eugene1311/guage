@@ -8,19 +8,29 @@ canvas guage
 bower i guage-ef
 
 Options:
+
   sourceEl: element where canvas will be mounted,
+  
   className: classname of the canvas for usage in css,
+  
   font: font,
+  
   size: width and height of canvas in px,
+  
   angle: circle aperture (in degrees),
+  
   labels: array of labels on the scale,
+  
   value: current value,
+  
   sectors: array of sectors in the scale this values of color, start and end angles,
+  
   example: 
+  
 	  sectors: [
 	      {
-	        color: 'orange',
+	        color: 'orange', 
 	        startAngle: 200,
-	        endAngle: 240
-	      }
+	        endAngle: 240  
+	      }    
 	    ]
